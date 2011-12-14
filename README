@@ -1,0 +1,11 @@
+create "blog" table
+
+If you are in admin Couch, you don't need user params, otherwise add this to the syncDesignDoc.coffee and also app.coffee:
+
+couchdb.createClient(5984, '127.0.0.1', { user: 'username', password: 'password' })
+
+
+run:
+
+coffee ./lib/syncDesignDoc.coffee
+coffee ./app.coffee

@@ -1,0 +1,16 @@
+{
+  "name": "blog",
+  "description": "Bogart Blogging Engine",
+  "version": "0.1.0",
+  "author": "Nick Bucciarelli",
+  "email": "nick.bucciarelli@gmail.com",
+  "main": "./app",
+  "directories": { "lib": "./lib" },
+  "dependencies": {
+    "bogart": ">=0.2.0",
+    "mustache": "0.3.1-dev",
+    "couchdb": ">=0.1.2",
+    "coffee-script": "1.1.x"
+  }
+
+}
